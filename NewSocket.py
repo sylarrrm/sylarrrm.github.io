@@ -234,7 +234,7 @@ def dbHandle():
 def initAccount(usr,deviceID,tbUsrs):
     db = pymysql.connect(host="localhost", 
                      user="sylar", 
-                     password="!@#c729865c7", 
+                     password="!@#", 
                      port=3306,# 端口  
                      database="mov", 
                      charset='utf8mb4')
@@ -282,7 +282,7 @@ def initAccount(usr,deviceID,tbUsrs):
 def initContent(usr,deviceID):
     db = pymysql.connect(host="localhost", 
                      user="sylar", 
-                     password="!@#c729865c7", 
+                     password="!@#", 
                      port=3306,# 端口  
                      database="mov", 
                      charset='utf8mb4')
@@ -303,7 +303,7 @@ def initContent(usr,deviceID):
 def updateDevice(usr,oldDeviceID,newDeviceID):
     db = pymysql.connect(host="localhost", 
                      user="sylar", 
-                     password="!@#c729865c7", 
+                     password="!@#", 
                      port=3306,# 端口  
                      database="mov", 
                      charset='utf8mb4')
@@ -356,7 +356,7 @@ def loginAccount(usr,password,deviceID,deviceName,token):
    
     db = pymysql.connect(host="localhost", 
                     user="sylar", 
-                    password="!@#c729865c7", 
+                    password="!@#", 
                     port=3306,# 端口  
                     database="mov", 
                     charset='utf8mb4')
