@@ -1,0 +1,721 @@
+bool __fastcall sub_62BC8(__int64 a1, _BYTE *a2)
+{
+  __int64 v4; // x21
+  __int64 v5; // x0
+  __int64 v6; // x22
+  const char *v7; // x23
+  unsigned __int64 v8; // x0
+  __int64 v9; // x24
+  char *v10; // x25
+  unsigned __int64 v11; // x26
+  __int64 v12; // x0
+  __int64 v13; // x22
+  const char *v14; // x23
+  unsigned __int64 v15; // x0
+  __int64 v16; // x24
+  char *v17; // x25
+  unsigned __int64 v18; // x26
+  __int64 v19; // x0
+  __int64 v20; // x22
+  const char *v21; // x23
+  unsigned __int64 v22; // x0
+  __int64 v23; // x24
+  char *v24; // x25
+  unsigned __int64 v25; // x26
+  __int64 v26; // x0
+  __int64 v27; // x22
+  const char *v28; // x23
+  unsigned __int64 v29; // x0
+  __int64 v30; // x24
+  char *v31; // x25
+  unsigned __int64 v32; // x26
+  __int64 v33; // x0
+  __int64 v34; // x22
+  const char *v35; // x23
+  unsigned __int64 v36; // x0
+  __int64 v37; // x24
+  char *v38; // x25
+  unsigned __int64 v39; // x26
+  __int64 v40; // x0
+  __int64 v41; // x22
+  const char *v42; // x23
+  unsigned __int64 v43; // x0
+  __int64 v44; // x24
+  char *v45; // x25
+  unsigned __int64 v46; // x26
+  __int64 v47; // x0
+  __int64 v48; // x22
+  const char *v49; // x23
+  unsigned __int64 v50; // x0
+  __int64 v51; // x24
+  char *v52; // x25
+  unsigned __int64 v53; // x26
+  __int64 v54; // x0
+  __int64 v55; // x22
+  const char *v56; // x23
+  unsigned __int64 v57; // x0
+  __int64 v58; // x24
+  char *v59; // x25
+  unsigned __int64 v60; // x26
+  __int64 v61; // x0
+  __int64 v62; // x22
+  const char *v63; // x23
+  unsigned __int64 v64; // x0
+  __int64 v65; // x24
+  char *v66; // x25
+  unsigned __int64 v67; // x26
+  __int64 v68; // x0
+  __int64 v69; // x21
+  const char *v70; // x22
+  unsigned __int64 v71; // x0
+  __int64 v72; // x23
+  char *v73; // x24
+  unsigned __int64 v74; // x25
+  char *v75; // x1
+  unsigned __int64 v76; // x2
+  __int64 v77; // x0
+  __int128 v78; // q0
+  char *v79; // x1
+  unsigned __int64 v80; // x2
+  __int64 v81; // x0
+  __int128 v82; // q0
+  char *v83; // x1
+  unsigned __int64 v84; // x2
+  __int64 v85; // x0
+  __int128 v86; // q0
+  char *v87; // x1
+  unsigned __int64 v88; // x2
+  __int64 v89; // x0
+  __int128 v90; // q0
+  char *v91; // x1
+  unsigned __int64 v92; // x2
+  __int64 v93; // x0
+  __int128 v94; // q0
+  char *v95; // x1
+  unsigned __int64 v96; // x2
+  __int64 v97; // x0
+  __int128 v98; // q0
+  char *v99; // x1
+  unsigned __int64 v100; // x2
+  __int64 v101; // x0
+  __int128 v102; // q0
+  char *v103; // x1
+  unsigned __int64 v104; // x2
+  __int64 v105; // x0
+  __int128 v106; // q0
+  char *v107; // x0
+  _BOOL4 v108; // w19
+  char v110; // [xsp+8h] [xbp-218h] BYREF
+  void *v111; // [xsp+18h] [xbp-208h]
+  __int128 v112; // [xsp+20h] [xbp-200h] BYREF
+  void *v113; // [xsp+30h] [xbp-1F0h]
+  __int128 v114; // [xsp+40h] [xbp-1E0h] BYREF
+  void *v115; // [xsp+50h] [xbp-1D0h]
+  __int128 v116; // [xsp+60h] [xbp-1C0h] BYREF
+  void *v117; // [xsp+70h] [xbp-1B0h]
+  __int128 v118; // [xsp+80h] [xbp-1A0h] BYREF
+  void *v119; // [xsp+90h] [xbp-190h]
+  __int128 v120; // [xsp+A0h] [xbp-180h] BYREF
+  void *v121; // [xsp+B0h] [xbp-170h]
+  __int128 v122; // [xsp+C0h] [xbp-160h] BYREF
+  void *v123; // [xsp+D0h] [xbp-150h]
+  __int128 v124; // [xsp+E0h] [xbp-140h] BYREF
+  void *v125; // [xsp+F0h] [xbp-130h]
+  __int128 v126; // [xsp+100h] [xbp-120h] BYREF
+  void *v127; // [xsp+110h] [xbp-110h]
+  unsigned __int64 v128; // [xsp+118h] [xbp-108h] BYREF
+  __int64 v129; // [xsp+120h] [xbp-100h]
+  void *v130; // [xsp+128h] [xbp-F8h]
+  unsigned __int64 v131; // [xsp+130h] [xbp-F0h] BYREF
+  __int64 v132; // [xsp+138h] [xbp-E8h]
+  char *v133; // [xsp+140h] [xbp-E0h]
+  unsigned __int64 v134; // [xsp+148h] [xbp-D8h] BYREF
+  __int64 v135; // [xsp+150h] [xbp-D0h]
+  char *v136; // [xsp+158h] [xbp-C8h]
+  unsigned __int64 v137; // [xsp+160h] [xbp-C0h] BYREF
+  __int64 v138; // [xsp+168h] [xbp-B8h]
+  char *v139; // [xsp+170h] [xbp-B0h]
+  unsigned __int64 v140; // [xsp+178h] [xbp-A8h] BYREF
+  __int64 v141; // [xsp+180h] [xbp-A0h]
+  char *v142; // [xsp+188h] [xbp-98h]
+  unsigned __int64 v143; // [xsp+190h] [xbp-90h] BYREF
+  __int64 v144; // [xsp+198h] [xbp-88h]
+  char *v145; // [xsp+1A0h] [xbp-80h]
+  unsigned __int64 v146; // [xsp+1A8h] [xbp-78h] BYREF
+  __int64 v147; // [xsp+1B0h] [xbp-70h]
+  char *v148; // [xsp+1B8h] [xbp-68h]
+  unsigned __int64 v149; // [xsp+1C0h] [xbp-60h] BYREF
+  __int64 v150; // [xsp+1C8h] [xbp-58h]
+  char *v151; // [xsp+1D0h] [xbp-50h]
+  __int64 v152[2]; // [xsp+1D8h] [xbp-48h] BYREF
+  void *v153; // [xsp+1E8h] [xbp-38h]
+  __int64 v154[2]; // [xsp+1F0h] [xbp-30h] BYREF
+  void *v155; // [xsp+200h] [xbp-20h]
+  char v156; // [xsp+208h] [xbp-18h]
+  char v157; // [xsp+209h] [xbp-17h]
+  char v158; // [xsp+20Ah] [xbp-16h]
+  char v159; // [xsp+20Bh] [xbp-15h]
+  char v160; // [xsp+20Ch] [xbp-14h]
+  char v161; // [xsp+20Dh] [xbp-13h]
+  char v162; // [xsp+20Eh] [xbp-12h]
+  char v163; // [xsp+20Fh] [xbp-11h]
+  char v164; // [xsp+210h] [xbp-10h]
+  char v165; // [xsp+211h] [xbp-Fh]
+  char v166; // [xsp+212h] [xbp-Eh]
+  char v167; // [xsp+213h] [xbp-Dh]
+  char v168; // [xsp+214h] [xbp-Ch]
+  char v169; // [xsp+215h] [xbp-Bh]
+  char v170; // [xsp+216h] [xbp-Ah]
+  char v171; // [xsp+217h] [xbp-9h]
+  __int64 v172; // [xsp+218h] [xbp-8h]
+
+  v172 = *(_QWORD *)(_ReadStatusReg(ARM64_SYSREG(3, 3, 13, 0, 2)) + 40);
+  v4 = (*(__int64 (__fastcall **)(__int64, const char *))(*(_QWORD *)a1 + 48LL))(a1, "android/os/Build");
+  v5 = (*(__int64 (__fastcall **)(__int64, __int64, const char *, const char *))(*(_QWORD *)a1 + 1152LL))(
+         a1,
+         v4,
+         "BOARD",
+         "Ljava/lang/String;");
+  v6 = (*(__int64 (__fastcall **)(__int64, __int64, __int64))(*(_QWORD *)a1 + 1160LL))(a1, v4, v5);
+  v7 = (const char *)(*(__int64 (__fastcall **)(__int64, __int64, _QWORD))(*(_QWORD *)a1 + 1352LL))(a1, v6, 0LL);
+  v8 = strlen(v7);
+  v9 = v8;
+  if ( v8 >= 0x17 )
+  {
+    v11 = (v8 + 16) & 0xFFFFFFFFFFFFFFF0LL;
+    v10 = (char *)operator new(v11);
+    v154[1] = v9;
+    v155 = v10;
+    v154[0] = v11 | 1;
+    goto LABEL_5;
+  }
+  v10 = (char *)v154 + 1;
+  LOBYTE(v154[0]) = 2 * v8;
+  if ( v8 )
+LABEL_5:
+    memcpy(v10, v7, v9);
+  v10[v9] = 0;
+  (*(void (__fastcall **)(__int64, __int64, const char *))(*(_QWORD *)a1 + 1360LL))(a1, v6, v7);
+  v12 = (*(__int64 (__fastcall **)(__int64, __int64, const char *, const char *))(*(_QWORD *)a1 + 1152LL))(
+          a1,
+          v4,
+          "CPU_ABI",
+          "Ljava/lang/String;");
+  v13 = (*(__int64 (__fastcall **)(__int64, __int64, __int64))(*(_QWORD *)a1 + 1160LL))(a1, v4, v12);
+  v14 = (const char *)(*(__int64 (__fastcall **)(__int64, __int64, _QWORD))(*(_QWORD *)a1 + 1352LL))(a1, v13, 0LL);
+  v15 = strlen(v14);
+  v16 = v15;
+  if ( v15 >= 0x17 )
+  {
+    v18 = (v15 + 16) & 0xFFFFFFFFFFFFFFF0LL;
+    v17 = (char *)operator new(v18);
+    v152[1] = v16;
+    v153 = v17;
+    v152[0] = v18 | 1;
+    goto LABEL_10;
+  }
+  v17 = (char *)v152 + 1;
+  LOBYTE(v152[0]) = 2 * v15;
+  if ( v15 )
+LABEL_10:
+    memcpy(v17, v14, v16);
+  v17[v16] = 0;
+  (*(void (__fastcall **)(__int64, __int64, const char *))(*(_QWORD *)a1 + 1360LL))(a1, v13, v14);
+  v19 = (*(__int64 (__fastcall **)(__int64, __int64, const char *, const char *))(*(_QWORD *)a1 + 1152LL))(
+          a1,
+          v4,
+          "BRAND",
+          "Ljava/lang/String;");
+  v20 = (*(__int64 (__fastcall **)(__int64, __int64, __int64))(*(_QWORD *)a1 + 1160LL))(a1, v4, v19);
+  v21 = (const char *)(*(__int64 (__fastcall **)(__int64, __int64, _QWORD))(*(_QWORD *)a1 + 1352LL))(a1, v20, 0LL);
+  v22 = strlen(v21);
+  v23 = v22;
+  if ( v22 >= 0x17 )
+  {
+    v25 = (v22 + 16) & 0xFFFFFFFFFFFFFFF0LL;
+    v24 = (char *)operator new(v25);
+    v150 = v23;
+    v151 = v24;
+    v149 = v25 | 1;
+    goto LABEL_15;
+  }
+  v24 = (char *)&v149 + 1;
+  LOBYTE(v149) = 2 * v22;
+  if ( v22 )
+LABEL_15:
+    memcpy(v24, v21, v23);
+  v24[v23] = 0;
+  (*(void (__fastcall **)(__int64, __int64, const char *))(*(_QWORD *)a1 + 1360LL))(a1, v20, v21);
+  v26 = (*(__int64 (__fastcall **)(__int64, __int64, const char *, const char *))(*(_QWORD *)a1 + 1152LL))(
+          a1,
+          v4,
+          "DISPLAY",
+          "Ljava/lang/String;");
+  v27 = (*(__int64 (__fastcall **)(__int64, __int64, __int64))(*(_QWORD *)a1 + 1160LL))(a1, v4, v26);
+  v28 = (const char *)(*(__int64 (__fastcall **)(__int64, __int64, _QWORD))(*(_QWORD *)a1 + 1352LL))(a1, v27, 0LL);
+  v29 = strlen(v28);
+  v30 = v29;
+  if ( v29 >= 0x17 )
+  {
+    v32 = (v29 + 16) & 0xFFFFFFFFFFFFFFF0LL;
+    v31 = (char *)operator new(v32);
+    v147 = v30;
+    v148 = v31;
+    v146 = v32 | 1;
+    goto LABEL_20;
+  }
+  v31 = (char *)&v146 + 1;
+  LOBYTE(v146) = 2 * v29;
+  if ( v29 )
+LABEL_20:
+    memcpy(v31, v28, v30);
+  v31[v30] = 0;
+  (*(void (__fastcall **)(__int64, __int64, const char *))(*(_QWORD *)a1 + 1360LL))(a1, v27, v28);
+  v33 = (*(__int64 (__fastcall **)(__int64, __int64, const char *, const char *))(*(_QWORD *)a1 + 1152LL))(
+          a1,
+          v4,
+          "FINGERPRINT",
+          "Ljava/lang/String;");
+  v34 = (*(__int64 (__fastcall **)(__int64, __int64, __int64))(*(_QWORD *)a1 + 1160LL))(a1, v4, v33);
+  v35 = (const char *)(*(__int64 (__fastcall **)(__int64, __int64, _QWORD))(*(_QWORD *)a1 + 1352LL))(a1, v34, 0LL);
+  v36 = strlen(v35);
+  v37 = v36;
+  if ( v36 >= 0x17 )
+  {
+    v39 = (v36 + 16) & 0xFFFFFFFFFFFFFFF0LL;
+    v38 = (char *)operator new(v39);
+    v144 = v37;
+    v145 = v38;
+    v143 = v39 | 1;
+    goto LABEL_25;
+  }
+  v38 = (char *)&v143 + 1;
+  LOBYTE(v143) = 2 * v36;
+  if ( v36 )
+LABEL_25:
+    memcpy(v38, v35, v37);
+  v38[v37] = 0;
+  (*(void (__fastcall **)(__int64, __int64, const char *))(*(_QWORD *)a1 + 1360LL))(a1, v34, v35);
+  v40 = (*(__int64 (__fastcall **)(__int64, __int64, const char *, const char *))(*(_QWORD *)a1 + 1152LL))(
+          a1,
+          v4,
+          "HOST",
+          "Ljava/lang/String;");
+  v41 = (*(__int64 (__fastcall **)(__int64, __int64, __int64))(*(_QWORD *)a1 + 1160LL))(a1, v4, v40);
+  v42 = (const char *)(*(__int64 (__fastcall **)(__int64, __int64, _QWORD))(*(_QWORD *)a1 + 1352LL))(a1, v41, 0LL);
+  v43 = strlen(v42);
+  v44 = v43;
+  if ( v43 >= 0x17 )
+  {
+    v46 = (v43 + 16) & 0xFFFFFFFFFFFFFFF0LL;
+    v45 = (char *)operator new(v46);
+    v141 = v44;
+    v142 = v45;
+    v140 = v46 | 1;
+    goto LABEL_30;
+  }
+  v45 = (char *)&v140 + 1;
+  LOBYTE(v140) = 2 * v43;
+  if ( v43 )
+LABEL_30:
+    memcpy(v45, v42, v44);
+  v45[v44] = 0;
+  (*(void (__fastcall **)(__int64, __int64, const char *))(*(_QWORD *)a1 + 1360LL))(a1, v41, v42);
+  v47 = (*(__int64 (__fastcall **)(__int64, __int64, const char *, const char *))(*(_QWORD *)a1 + 1152LL))(
+          a1,
+          v4,
+          "ID",
+          "Ljava/lang/String;");
+  v48 = (*(__int64 (__fastcall **)(__int64, __int64, __int64))(*(_QWORD *)a1 + 1160LL))(a1, v4, v47);
+  v49 = (const char *)(*(__int64 (__fastcall **)(__int64, __int64, _QWORD))(*(_QWORD *)a1 + 1352LL))(a1, v48, 0LL);
+  v50 = strlen(v49);
+  v51 = v50;
+  if ( v50 >= 0x17 )
+  {
+    v53 = (v50 + 16) & 0xFFFFFFFFFFFFFFF0LL;
+    v52 = (char *)operator new(v53);
+    v138 = v51;
+    v139 = v52;
+    v137 = v53 | 1;
+    goto LABEL_35;
+  }
+  v52 = (char *)&v137 + 1;
+  LOBYTE(v137) = 2 * v50;
+  if ( v50 )
+LABEL_35:
+    memcpy(v52, v49, v51);
+  v52[v51] = 0;
+  (*(void (__fastcall **)(__int64, __int64, const char *))(*(_QWORD *)a1 + 1360LL))(a1, v48, v49);
+  v54 = (*(__int64 (__fastcall **)(__int64, __int64, const char *, const char *))(*(_QWORD *)a1 + 1152LL))(
+          a1,
+          v4,
+          "MANUFACTURER",
+          "Ljava/lang/String;");
+  v55 = (*(__int64 (__fastcall **)(__int64, __int64, __int64))(*(_QWORD *)a1 + 1160LL))(a1, v4, v54);
+  v56 = (const char *)(*(__int64 (__fastcall **)(__int64, __int64, _QWORD))(*(_QWORD *)a1 + 1352LL))(a1, v55, 0LL);
+  v57 = strlen(v56);
+  v58 = v57;
+  if ( v57 >= 0x17 )
+  {
+    v60 = (v57 + 16) & 0xFFFFFFFFFFFFFFF0LL;
+    v59 = (char *)operator new(v60);
+    v135 = v58;
+    v136 = v59;
+    v134 = v60 | 1;
+    goto LABEL_40;
+  }
+  v59 = (char *)&v134 + 1;
+  LOBYTE(v134) = 2 * v57;
+  if ( v57 )
+LABEL_40:
+    memcpy(v59, v56, v58);
+  v59[v58] = 0;
+  (*(void (__fastcall **)(__int64, __int64, const char *))(*(_QWORD *)a1 + 1360LL))(a1, v55, v56);
+  v61 = (*(__int64 (__fastcall **)(__int64, __int64, const char *, const char *))(*(_QWORD *)a1 + 1152LL))(
+          a1,
+          v4,
+          "MODEL",
+          "Ljava/lang/String;");
+  v62 = (*(__int64 (__fastcall **)(__int64, __int64, __int64))(*(_QWORD *)a1 + 1160LL))(a1, v4, v61);
+  v63 = (const char *)(*(__int64 (__fastcall **)(__int64, __int64, _QWORD))(*(_QWORD *)a1 + 1352LL))(a1, v62, 0LL);
+  v64 = strlen(v63);
+  v65 = v64;
+  if ( v64 >= 0x17 )
+  {
+    v67 = (v64 + 16) & 0xFFFFFFFFFFFFFFF0LL;
+    v66 = (char *)operator new(v67);
+    v132 = v65;
+    v133 = v66;
+    v131 = v67 | 1;
+    goto LABEL_45;
+  }
+  v66 = (char *)&v131 + 1;
+  LOBYTE(v131) = 2 * v64;
+  if ( v64 )
+LABEL_45:
+    memcpy(v66, v63, v65);
+  v66[v65] = 0;
+  (*(void (__fastcall **)(__int64, __int64, const char *))(*(_QWORD *)a1 + 1360LL))(a1, v62, v63);
+  v68 = (*(__int64 (__fastcall **)(__int64, __int64, const char *, const char *))(*(_QWORD *)a1 + 1152LL))(
+          a1,
+          v4,
+          "TAGS",
+          "Ljava/lang/String;");
+  v69 = (*(__int64 (__fastcall **)(__int64, __int64, __int64))(*(_QWORD *)a1 + 1160LL))(a1, v4, v68);
+  v70 = (const char *)(*(__int64 (__fastcall **)(__int64, __int64, _QWORD))(*(_QWORD *)a1 + 1352LL))(a1, v69, 0LL);
+  v71 = strlen(v70);
+  v72 = v71;
+  if ( v71 >= 0x17 )
+  {
+    v74 = (v71 + 16) & 0xFFFFFFFFFFFFFFF0LL;
+    v73 = (char *)operator new(v74);
+    v129 = v72;
+    v130 = v73;
+    v128 = v74 | 1;
+    goto LABEL_50;
+  }
+  v73 = (char *)&v128 + 1;
+  LOBYTE(v128) = 2 * v71;
+  if ( v71 )
+LABEL_50:
+    memcpy(v73, v70, v72);
+  v73[v72] = 0;
+  (*(void (__fastcall **)(__int64, __int64, const char *))(*(_QWORD *)a1 + 1360LL))(a1, v69, v70);
+  sub_640A8(v154, v152);
+  if ( (v149 & 1) != 0 )
+    v75 = v151;
+  else
+    v75 = (char *)&v149 + 1;
+  if ( (v149 & 1) != 0 )
+    LODWORD(v76) = v150;
+  else
+    v76 = (unsigned __int64)(unsigned __int8)v149 >> 1;
+  v77 = std::string::append((int)&v110, v75, v76);
+  v78 = *(_OWORD *)v77;
+  v113 = *(void **)(v77 + 16);
+  v112 = v78;
+  *(_QWORD *)(v77 + 8) = 0LL;
+  *(_QWORD *)(v77 + 16) = 0LL;
+  *(_QWORD *)v77 = 0LL;
+  if ( (v146 & 1) != 0 )
+    v79 = v148;
+  else
+    v79 = (char *)&v146 + 1;
+  if ( (v146 & 1) != 0 )
+    LODWORD(v80) = v147;
+  else
+    v80 = (unsigned __int64)(unsigned __int8)v146 >> 1;
+  v81 = std::string::append((int)&v112, v79, v80);
+  v82 = *(_OWORD *)v81;
+  v115 = *(void **)(v81 + 16);
+  v114 = v82;
+  *(_QWORD *)(v81 + 8) = 0LL;
+  *(_QWORD *)(v81 + 16) = 0LL;
+  *(_QWORD *)v81 = 0LL;
+  if ( (v143 & 1) != 0 )
+    v83 = v145;
+  else
+    v83 = (char *)&v143 + 1;
+  if ( (v143 & 1) != 0 )
+    LODWORD(v84) = v144;
+  else
+    v84 = (unsigned __int64)(unsigned __int8)v143 >> 1;
+  v85 = std::string::append((int)&v114, v83, v84);
+  v86 = *(_OWORD *)v85;
+  v117 = *(void **)(v85 + 16);
+  v116 = v86;
+  *(_QWORD *)(v85 + 8) = 0LL;
+  *(_QWORD *)(v85 + 16) = 0LL;
+  *(_QWORD *)v85 = 0LL;
+  if ( (v140 & 1) != 0 )
+    v87 = v142;
+  else
+    v87 = (char *)&v140 + 1;
+  if ( (v140 & 1) != 0 )
+    LODWORD(v88) = v141;
+  else
+    v88 = (unsigned __int64)(unsigned __int8)v140 >> 1;
+  v89 = std::string::append((int)&v116, v87, v88);
+  v90 = *(_OWORD *)v89;
+  v119 = *(void **)(v89 + 16);
+  v118 = v90;
+  *(_QWORD *)(v89 + 8) = 0LL;
+  *(_QWORD *)(v89 + 16) = 0LL;
+  *(_QWORD *)v89 = 0LL;
+  if ( (v137 & 1) != 0 )
+    v91 = v139;
+  else
+    v91 = (char *)&v137 + 1;
+  if ( (v137 & 1) != 0 )
+    LODWORD(v92) = v138;
+  else
+    v92 = (unsigned __int64)(unsigned __int8)v137 >> 1;
+  v93 = std::string::append((int)&v118, v91, v92);
+  v94 = *(_OWORD *)v93;
+  v121 = *(void **)(v93 + 16);
+  v120 = v94;
+  *(_QWORD *)(v93 + 8) = 0LL;
+  *(_QWORD *)(v93 + 16) = 0LL;
+  *(_QWORD *)v93 = 0LL;
+  if ( (v134 & 1) != 0 )
+    v95 = v136;
+  else
+    v95 = (char *)&v134 + 1;
+  if ( (v134 & 1) != 0 )
+    LODWORD(v96) = v135;
+  else
+    v96 = (unsigned __int64)(unsigned __int8)v134 >> 1;
+  v97 = std::string::append((int)&v120, v95, v96);
+  v98 = *(_OWORD *)v97;
+  v123 = *(void **)(v97 + 16);
+  v122 = v98;
+  *(_QWORD *)(v97 + 8) = 0LL;
+  *(_QWORD *)(v97 + 16) = 0LL;
+  *(_QWORD *)v97 = 0LL;
+  if ( (v131 & 1) != 0 )
+    v99 = v133;
+  else
+    v99 = (char *)&v131 + 1;
+  if ( (v131 & 1) != 0 )
+    LODWORD(v100) = v132;
+  else
+    v100 = (unsigned __int64)(unsigned __int8)v131 >> 1;
+  v101 = std::string::append((int)&v122, v99, v100);
+  v102 = *(_OWORD *)v101;
+  v125 = *(void **)(v101 + 16);
+  v124 = v102;
+  *(_QWORD *)(v101 + 8) = 0LL;
+  *(_QWORD *)(v101 + 16) = 0LL;
+  *(_QWORD *)v101 = 0LL;
+  if ( (v128 & 1) != 0 )
+    v103 = (char *)v130;
+  else
+    v103 = (char *)&v128 + 1;
+  if ( (v128 & 1) != 0 )
+    LODWORD(v104) = v129;
+  else
+    v104 = (unsigned __int64)(unsigned __int8)v128 >> 1;
+  v105 = std::string::append((int)&v124, v103, v104);
+  v106 = *(_OWORD *)v105;
+  v127 = *(void **)(v105 + 16);
+  v126 = v106;
+  *(_QWORD *)(v105 + 8) = 0LL;
+  *(_QWORD *)(v105 + 16) = 0LL;
+  *(_QWORD *)v105 = 0LL;
+  if ( (v124 & 1) != 0 )
+  {
+    operator delete(v125);
+    if ( (v122 & 1) == 0 )
+    {
+LABEL_101:
+      if ( (v120 & 1) == 0 )
+        goto LABEL_102;
+      goto LABEL_143;
+    }
+  }
+  else if ( (v122 & 1) == 0 )
+  {
+    goto LABEL_101;
+  }
+  operator delete(v123);
+  if ( (v120 & 1) == 0 )
+  {
+LABEL_102:
+    if ( (v118 & 1) == 0 )
+      goto LABEL_103;
+    goto LABEL_144;
+  }
+LABEL_143:
+  operator delete(v121);
+  if ( (v118 & 1) == 0 )
+  {
+LABEL_103:
+    if ( (v116 & 1) == 0 )
+      goto LABEL_104;
+    goto LABEL_145;
+  }
+LABEL_144:
+  operator delete(v119);
+  if ( (v116 & 1) == 0 )
+  {
+LABEL_104:
+    if ( (v114 & 1) == 0 )
+      goto LABEL_105;
+    goto LABEL_146;
+  }
+LABEL_145:
+  operator delete(v117);
+  if ( (v114 & 1) == 0 )
+  {
+LABEL_105:
+    if ( (v112 & 1) == 0 )
+      goto LABEL_106;
+    goto LABEL_147;
+  }
+LABEL_146:
+  operator delete(v115);
+  if ( (v112 & 1) == 0 )
+  {
+LABEL_106:
+    if ( (v110 & 1) == 0 )
+      goto LABEL_108;
+    goto LABEL_107;
+  }
+LABEL_147:
+  operator delete(v113);
+  if ( (v110 & 1) != 0 )
+LABEL_107:
+    operator delete(v111);
+LABEL_108:
+  if ( (v126 & 1) != 0 )
+    v107 = (char *)v127;
+  else
+    v107 = (char *)&v126 + 1;
+  sub_67FD4(v107);
+  v108 = v156 == *a2
+      && v157 == a2[1]
+      && v158 == a2[2]
+      && v159 == a2[3]
+      && v160 == a2[4]
+      && v161 == a2[5]
+      && v162 == a2[6]
+      && v163 == a2[7]
+      && v164 == a2[8]
+      && v165 == a2[9]
+      && v166 == a2[10]
+      && v167 == a2[11]
+      && v168 == a2[12]
+      && v169 == a2[13]
+      && v170 == a2[14]
+      && v171 == a2[15];
+  if ( (v126 & 1) != 0 )
+  {
+    operator delete(v127);
+    if ( (v128 & 1) == 0 )
+    {
+LABEL_130:
+      if ( (v131 & 1) == 0 )
+        goto LABEL_131;
+      goto LABEL_151;
+    }
+  }
+  else if ( (v128 & 1) == 0 )
+  {
+    goto LABEL_130;
+  }
+  operator delete(v130);
+  if ( (v131 & 1) == 0 )
+  {
+LABEL_131:
+    if ( (v134 & 1) == 0 )
+      goto LABEL_132;
+    goto LABEL_152;
+  }
+LABEL_151:
+  operator delete(v133);
+  if ( (v134 & 1) == 0 )
+  {
+LABEL_132:
+    if ( (v137 & 1) == 0 )
+      goto LABEL_133;
+    goto LABEL_153;
+  }
+LABEL_152:
+  operator delete(v136);
+  if ( (v137 & 1) == 0 )
+  {
+LABEL_133:
+    if ( (v140 & 1) == 0 )
+      goto LABEL_134;
+    goto LABEL_154;
+  }
+LABEL_153:
+  operator delete(v139);
+  if ( (v140 & 1) == 0 )
+  {
+LABEL_134:
+    if ( (v143 & 1) == 0 )
+      goto LABEL_135;
+    goto LABEL_155;
+  }
+LABEL_154:
+  operator delete(v142);
+  if ( (v143 & 1) == 0 )
+  {
+LABEL_135:
+    if ( (v146 & 1) == 0 )
+      goto LABEL_136;
+    goto LABEL_156;
+  }
+LABEL_155:
+  operator delete(v145);
+  if ( (v146 & 1) == 0 )
+  {
+LABEL_136:
+    if ( (v149 & 1) == 0 )
+      goto LABEL_137;
+    goto LABEL_157;
+  }
+LABEL_156:
+  operator delete(v148);
+  if ( (v149 & 1) == 0 )
+  {
+LABEL_137:
+    if ( (v152[0] & 1) == 0 )
+      goto LABEL_138;
+LABEL_158:
+    operator delete(v153);
+    if ( (v154[0] & 1) == 0 )
+      return v108;
+    goto LABEL_139;
+  }
+LABEL_157:
+  operator delete(v151);
+  if ( (v152[0] & 1) != 0 )
+    goto LABEL_158;
+LABEL_138:
+  if ( (v154[0] & 1) != 0 )
+LABEL_139:
+    operator delete(v155);
+  return v108;
+}
